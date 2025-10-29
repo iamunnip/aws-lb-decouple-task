@@ -1,0 +1,9 @@
+image:
+  repository: nginx
+  tag: 1.20.4
+
+service:
+  type: ClusterIP
+  port: 800
+  annotations:
+    abc: xyz
